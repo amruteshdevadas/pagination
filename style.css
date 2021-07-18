@@ -1,0 +1,44 @@
+
+.header
+{
+    background-color: black;
+    color: white;
+}
+.page,.pageButtons
+{
+    margin:5px;
+
+}
+.pageButtons
+{
+  text-align: center;  
+}
+/* .table{
+    font-size: 1.5rem !important;
+} */
+
+@media screen and (max-width:380px) {
+    .table,th,tr,td{
+        padding: 0.1rem !important;
+        font-size: 0.95rem !important;
+        
+    }
+    
+}
+@media screen and (min-width:420px) {
+    .table,th,tr,td{
+        padding: 0.6rem !important;
+        
+    }
+    
+}
+@media screen and (min-width:700px) {
+    .table,th,tr,td{
+        padding: 1.2rem !important;
+        font-size: 1.5rem !important;
+
+        
+        
+    }
+    
+}

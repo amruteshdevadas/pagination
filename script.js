@@ -514,7 +514,7 @@ user_List = [
   var state = {
     'querySet': user_List,
 
-    'page': 5,
+    'page': 1,
     'rows': 10,
     'window': 5,
 }
